@@ -1,5 +1,5 @@
 import Navbar from 'components/Navbar'
-import Form from 'pages/form'
+import Form from 'pages/Listining'
 import Listing from 'pages/Listining'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
@@ -9,7 +9,7 @@ function App(){
     <BrowserRouter>
       <Navbar />
       <Routes>
-        
+
         <Route path="/list" element={<Listing />} />
         
         <Route path="/form">
