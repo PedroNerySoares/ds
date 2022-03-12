@@ -10,7 +10,7 @@ function App(){
       <Navbar />
       <Routes>
 
-        <Route path="/list" element={<Listing />} />
+        <Route path="/" element={<Listing />} />
         
         <Route path="/form">
           <Route path=":movieId" element={<Form/>} />
